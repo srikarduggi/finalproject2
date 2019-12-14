@@ -1,0 +1,40 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**By: Srikar Duggi**    \n",
+    "\n",
+    "\n",
+    "# The World Happiness Report: *An Exploratory Data Analysis Project*\n",
+    "## Introduction"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "As a global civilization, we are awakening to the realization of just how much happiness in our day-to-day lives really matters. The positive effects of a happy mind not only propagate throughout the various dimensions of a person's life, but they furthermore ripple throughout society in a stone-in-the-pond fashion. Corporations, governments and organizations are becoming increasingly aware that its employees, citizens and members are better able to contribute to their respective tasks when minimum happiness levels are met, and that it is therefore in their best interests to contribute to the well-beings of these people. As a result, happiness metrics are becoming increasingly utilized in making policy decisions - a win for everyone.\n",
+    "\n",
+    "In 2012 the first iteration of the World Happiness Report was produced, a survey that looks at nationally representative happiness levels across countries as a measure of national progress. It was an impressive feat that required the contributions of leading experts in fields such as statistics, data science, economics, health, psychology and public policy, among many others. To evaluate happiness levels, the report used surveys provided by the Gallup World Poll, the gold standard of worldwide polling. More specifically, happiness scores are based on the Cantril Ladder, a subjective metric that asks each participant to evaluate his or her quality of life on a scale from 0 to 10, with 10 being the dream life. The poll furthermore includes geographical data and data for six characteristics that are hypothesized to be correlated with national happiness levels; it is these features and how they relate to happiness that will be the main focus of this project. Since 2012 a new updated report has been published each year excluding 2014, and in this project we will look specifically at the years 2015-2017.\n",
+    "\n",
+    "**Credits:** The data from the World Happiness Report was borrowed from a reviewed Kaggle Kernel of the same name. Although this dataset is relatively clean in isolation, once merged with the second dataset of this project (world map data), further cleaning will be necessary.\n",
+    "\n",
+    "**THE SIX CHARACTERISTICS**\n",
+    "\n",
+    "The values for these features are to be understood as ratings for each of the characteristics, not the true values for the characteristics, with higher values corresponding to countries that are more favorable in those characteristics.\n",
+    "\n",
+    "1) GDP per capita <br />\n",
+    "2) Family quality of citizens <br />\n",
+    "3) Health of citizens <br />\n",
+    "4) Freedom of citizens <br />\n",
+    "5) Generosity of citizens <br />\n",
+    "6) Trust in government of citizens <br />\n",
+    "\n",
+    "**THE TARGET**\n",
+    "\n",
+    "The mean happiness score of each country\n",
+    "\n",
+    "**THE CONVENTIONS**\n",
+    "\n",
